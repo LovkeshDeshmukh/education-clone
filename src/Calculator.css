@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.maincalc {
+  width: 60%;
+  min-height: 250px;
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  margin: 20px 50px 20px 10px;
+  border-radius: 10px;
+  background-color: #fff2f2;
+  display: flex;
+  justify-content: center;
+}
+.calc_history {
+  width: 20%;
+  border: 1px solid blue;
+}
+.calc_input_btn {
+  width: 80%;
+}
+.cal_darkmode {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 25px;
+}
+.cal_slider {
+  width: 30px;
+  height: 15px;
+  border: 1px solid grey;
+  border-radius: 40%;
+  display: flex;
+  align-items: center;
+}
+.cal_slider_ball {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  align-self: center;
+  
+}
+.maincalc button {
+  width: 55px;
+  height: 30px;
+  margin: 2px;
+  background-color: #e5e0ff;
+  border-radius: 5px;
+}
+.iptcalc {
+  width: 580px;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: #7286d3;
+  color: white;
+  border-radius: 3px;
+  text-align: right;
+}
