@@ -24,7 +24,7 @@ export default function Home() {
         navigate("/TopResults");
         localStorage.setItem('check','ok')
       } else {
-        alert("password is wrong");
+        alert("password is wrong"); 
       }
     } else {
       alert("user not found");
@@ -37,6 +37,7 @@ export default function Home() {
         <div className="login">
           <form autoComplete="on">
           <input
+          
             className="inpt1"
             onChange={(e) => setUsername(e.target.value)}
             placeholder="Enter your number or Id"
